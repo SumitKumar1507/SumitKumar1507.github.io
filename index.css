@@ -1,74 +1,17 @@
-.nav-1 {
-	display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    align-content: center;
-    justify-content: flex-start;
-    align-items: center;
-}
-
-.nav-text {
-	font-family: Syne;
-	font-size: 30px;
-	color: white;
-	animation-name: test;
-	animation-duration: 20s;
-}
-
-.nav-text-1 {
-	font-family: Syne;
-	font-size: 40px;
-	color: white;
-	padding-left: 880px;
-}
-
-.temp {
-	animation-name: test;
-	animation-duration: 20s;
-}
-
-.logo {
-	padding-top: 40px;
-	text-align: center;
-}
-
-.text-1 {
-	padding-top: 60px;
-	font-family: Syne;
-	font-size: 30px;
-	color: white;
-	text-align: center;
-}
-
-.text-2 {
-	margin: 0 auto;
-	max-width: 700px;
-	font-family: Syne;
+.info {
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	color: #ECEFF4;
 	font-size: 20px;
-	color: white;
 	text-align: center;
+
 }
 
-.text-3{
-
-	font-family: Syne;
-	font-size: 40px;
-	padding-top: 50px;
+.img {
 	text-align: center;
-	color: white;
-
-}
-
-.classes {
-	padding-top: 10px;
-	padding-left: 25px;
-	margin: 50px;
-}
-
-@keyframes test {
-	0% {color: yellow;}
-	25% {color: skyblue;}
-	50% {color: orange;}
-	75% {color: lightgreen;}
-	100% {color: white;}
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	color: #ECEFF4;	
+	padding-right: 10px;
+	padding-bottom: 10px;
+	vertical-align: middle;
+	text-decoration: none;
 }
